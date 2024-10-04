@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    background-image: url(pexels-david-mceachan-87500.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+#search-input {
+    font-size: 20px;
+    padding: 10px;
+    width: 400px;
+    height: 30px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #01942d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 50%;
+}
+
+#search-button:hover {
+    background-color: #00b35f;
+}
+
+.card {
+    background-color: #e6e1e1;
+    border: 2px solid #a7a6a6;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+.date-time-container {
+    padding-left: 20px;
+    display: flex;
+    position: absolute;
+    margin-top: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 50px;
+    width: 505px;
+    align-items: center;
+
+}
+
+.date-time {
+    font-weight: bold;
+    font-size: 22px;
+    color: #352800;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* .autocomplete-suggestions {
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    position: relative;
+    background-color: #fff;
+}
+
+.autocomplete-suggestion {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.autocomplete-suggestion:hover {
+    background-color: #f0f0f0;
+} */
+.title h2 {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}

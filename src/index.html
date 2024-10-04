@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2a4c6c3b14.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Prayer Times</title>
+</head>
+<body>
+    
+    <div class="container">
+        <input type="text" id="search-input" autofocus placeholder="Enter a specfic city please" spellcheck="false" >
+        <!-- <div id="suggestions" class="autocomplete-suggestions"></div> -->
+        <button id="search-button">Search</button>
+    </div>
+
+    <div class="title">
+        <h2>Prayer Times</h2>
+    </div>
+    <hr>
+    <div id="hidden-city"></div>
+    <div class="container">
+        <div class="card">
+            <h3 class="1">Al fajr</h3>
+            <div id="fajr">-</div>
+        </div>
+
+        <div class="card">
+            <h3 class="1">Sun Rise</h3>
+            <div id="sun-rise"></div>
+        </div>
+
+        <div class="card">
+            <h3 class="1">Al dohr</h3>
+            <div id="dohr">-</div>
+        </div>
+
+        <div class="card">
+            <h3 class="1">Al asr</h3>
+            <div id="asr">-</div>
+        </div>
+
+        <div class="card">
+            <h3 class="1">Al maghreb</h3>
+            <div id="maghreb">-</div>
+        </div>
+
+        <div class="card">
+            <h3 class="1">Sun Set</h3>
+            <div id="sun-set">-</div>
+        </div>
+
+        <div class="card">
+            <h3 class="1">Al isha'a</h3>
+            <div id="ishaa">-</div>
+        </div>
+    </div>
+
+    <div class="container date-time-container">
+        <div class="date-time" id="current-date-time"></div>
+        <div class="current-day"></div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
